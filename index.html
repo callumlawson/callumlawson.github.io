@@ -1,10 +1,79 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color: #d4d4d4;">
-<center>
-   <h1 style="font-family:verdana">Brain Rack</h1>
-   <p style="font-family:verdana">Makes games</p>
-   <p style="font-family:verdana">Watch this space.</p>
-</center>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Rack Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* This section is the CSS that styles your page */
+
+        /* Basic reset and page setup */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Inter', sans-serif; /* Changed font to Inter */
+        }
+
+        /* The main body of the page */
+        body {
+            background-color: #f4c255; /* A nice flat orange */
+            
+            /* These three lines center the content vertically and horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* This centers the content for when the screen is narrow */
+            text-align: center;
+        }
+
+        /* A wrapper for your content */
+          .content {
+            max-width: 90%; /* Ensures the content doesn't touch the screen edges on mobile */
+            display: flex; /* Added to make it a flex container */
+            flex-direction: column; /* Stacks children vertically */
+            align-items: center; /* Centers items horizontally within the flex container */
+            justify-content: center; /* Centers items vertically within the flex container (if height is defined) */
+        }
+
+        /* Styles for your logo */
+        .logo {
+            max-width: 150px; /* Controls the maximum width of your logo */
+            margin-bottom: 0px; /* Adds space between the logo and the text */
+        }
+
+        /* Styles for the first line of text (the capsule) */
+        h1 {
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            padding: 12px 25px; /* Vertical and horizontal space inside the capsule */
+            border-radius: 50px; /* This creates the rounded "pill" shape */
+            display: inline-block; /* Makes the background wrap the text snugly */
+            margin: 0 0 15px 0; /* Adds a little space below the capsule */
+            font-size: 1.5rem; /* A slightly larger font size */
+	    text-align: center;
+        }
+
+        /* Styles for the second line of text */
+        p {
+            color: #000000; /* White text to stand out on the orange background */
+            margin: 0;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        
+        <img src="https://lh3.googleusercontent.com/if9O457JQ4N5SiU7z_6HUFaYsEKQTyCtzx0AC09xUyTE4XhpXFDJx3TjOUTzLNHRyKGHz-dsKLeH88tgBUHXj6GjqYNNAnlbDz5AVk-C5_ppx-EPwX-gkBasDg2JTHG7WrfW5vabAfA=w1280" alt="Company Logo - A brain with glases" class="logo">
+        <h1>Brain Rack</h1>
+        <p>Coming soon</p>
+
+    </div>
+
 </body>
 </html>
