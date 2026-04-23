@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(awk '{printf \"%.0f KB\\\\n\", $1/1024}')"
+      "Bash(awk '{printf \"%.0f KB\\\\n\", $1/1024}')",
+      "mcp__rider__list_directory_tree"
     ]
   }
 }
